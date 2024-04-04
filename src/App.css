@@ -1,0 +1,25 @@
+.full_products {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: repeat(20, 1fr);
+  gap: 50px;
+}
+.single_product {
+  overflow: hidden;
+  width: 250px;
+  height: 250px;
+  border: 1px solid;
+}
+.single_product > .image {
+  object-fit: fill;
+
+  padding: 10px 15px;
+  width: 90%;
+  height: 70%;
+}
+.single_product .pname {
+  text-align: center;
+  font-size: 14px;
+  color: green;
+  
+}
